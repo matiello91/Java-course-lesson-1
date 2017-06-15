@@ -1,0 +1,46 @@
+/**
+ * Created by Dell on 2017-06-12.
+ */
+//Jest to klasa Main
+public class Main {
+    byte b=127; //byte stores values frin -128 dto 127
+    short s=32767; // -32769 to 32767
+    int i=-2147483648; //(32bity) -2147483648 to 2147483647
+    long l=15000150015000l; // variable long is finished with "l" on end
+    float f=3.444444444f; // also must be finished with "f" on end, it doesnt have any represantation in binary system
+    double d=3.42141414124124342324234242342342; //it doesnt need to finished with a letter on end
+    char c='a'; // variable can stores only one letter, arytmetic type
+    String string= "It can represtante arbitrary text";
+    public static void main(String[] args)
+    {
+        int wynik, wynik2=7, wynik3, wynik4, wynik5;
+        int l1=56;
+        int l2=14;
+        wynik=l1+l2;
+        wynik2 = l1-l2;
+        wynik3=l1*l2;
+        wynik4=l1/l2;
+        wynik5=l1%l2;
+        System.out.println("Wynik =" + wynik);
+        System.out.println("Wynik =" + wynik2);
+        System.out.println("Wynik =" + wynik3);
+        System.out.println("Wynik4 =" + wynik4);
+
+        wynik5++;
+        wynik5++;
+        wynik5++;
+        wynik5++;
+        wynik5++;
+        System.out.println("Wynik =" + wynik5);
+        wynik4--;
+        wynik4--;
+        wynik4--;
+        wynik4--;
+        wynik4--;
+        System.out.println("Wynik4 =" + wynik4);
+        byte wynik6=127;
+        wynik6++;
+        System.out.println(wynik6);
+
+    }
+}
